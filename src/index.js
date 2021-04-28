@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 // import Game from './Game'
+// import Auth from './Auth'
+import Example from './Example'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Example />
   </React.StrictMode>,
   document.getElementById('root')
 );
